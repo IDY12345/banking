@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 const HeaderBox = ({
@@ -6,6 +7,7 @@ const HeaderBox = ({
     user,
     subtext
 }:HeaderBoxProps) => {
+    
   return (
     <div className='header-box'>
         <h1 className='header-box-title'>
